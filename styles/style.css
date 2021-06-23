@@ -9,12 +9,12 @@
     font-size: xx-large;
 }
 
-.days ul{
+#days ul{
     text-align: center;
 
 }
 /*horiz. list -> https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/ */
-.days li{
+#days li{
     display: inline;
     list-style-type: none;
 
