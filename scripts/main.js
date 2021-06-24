@@ -1,4 +1,6 @@
 
+
+
 //date highlight management
 currentTime = new Date();
 var date = (currentTime.getDate()-1);
@@ -16,5 +18,21 @@ let monthNum = currentTime.getMonth();
 
 var idMonth = document.getElementById("month");
 // html node ? https://stackoverflow.com/questions/43221594/change-a-href-innerhtml-without-id
-var month = idMonth.getElementsByTagName("p")[0].innerHTML = monthArr[monthNum];
+idMonth.getElementsByTagName("p")[0].innerHTML = monthArr[monthNum];
    
+//read in form data
+function person1(){
+
+    //var inputOne = document.getElementById("Adam").value;
+    var idp1 = document.getElementById("person1dates");
+    //console.log(inputOne);
+    console.log(idp1);
+
+    // html node ? https://stackoverflow.com/questions/43221594/change-a-href-innerhtml-without-id
+    idp1.getElementsByTagName("p").innerHTML = "hi";
+       
+}
+function person2(){
+    var inputOne = document.getElementById("Annika");
+}
+    
