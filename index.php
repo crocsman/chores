@@ -9,6 +9,10 @@
         <title>Chores Are Fun</title>
     </head>
     <body>
+<?php
+echo "My first PHP script!";
+?> 
+
         <div class="pageTitle"> 
             <h1>Chores and More</h1>
         </div>
